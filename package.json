@@ -1,0 +1,27 @@
+{
+  "name": "@tiandatong/anymock",
+  "version": "0.1.1",
+  "description": "mock service base on Anyproxy.",
+  "main": "anyproxy.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temberature/anymock.git"
+  },
+  "keywords": [
+    "['mock'",
+    "'Anyproxy'",
+    "'proxy'",
+    "'API'",
+    "'HTTP'",
+    "'simulator']"
+  ],
+  "author": "Tong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/temberature/anymock/issues"
+  },
+  "homepage": "https://github.com/temberature/anymock#readme"
+}
