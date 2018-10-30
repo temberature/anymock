@@ -1,0 +1,39 @@
+{
+    "disabled": true,
+    "configs": [{
+            "URL": "//ip.if.iqiyi.com/cityjson",
+            "OPTIONS": ["mainland", "international"],
+            "choices": 0
+        },
+        {
+            "URL": "//i.vip.iqiyi.com/client/store/pc/checkout.action",
+            "OPTIONS": ["gold", "diamond"],
+            "choices": ["diamond"]
+        },
+        {
+            "URL": "//i.vip.iqiyi.com/order/queryOrderStat.action",
+            "OPTIONS": ["qrcode", "mobile"],
+            "choices": ["mobile"]
+        },
+        {
+            "URL": "//i.vip.iqiyi.com/pay/dopay.action",
+            "choices": 0
+        },
+        {
+            "URL": "//i.vip.iqiyi.com/pay/mobile-pay-vd.action",
+            "choices": 0
+        },
+        {
+            "URL": "//i.vip.iqiyi.com/pc/payconfirm/confirmOrderStat.action",
+            "choices": 0
+        },
+        {
+            "URL": "//i.vip.iqiyi.com/pay/readQd.action",
+            "choices": 0
+        },
+        {
+            "URL": "//passport.iqiyi.com/apis/user/info/queryWithVerify.action",
+            "choices": 1
+        }
+    ]
+}

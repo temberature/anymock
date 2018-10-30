@@ -1,0 +1,1786 @@
+[{
+        "url": "//i.vip.iqiyi.com/client/store/pc/checkout.action",
+        "options": {
+            "gold": {
+                "body": {
+                    "code": "A00000",
+                    "data": {
+                        "msg": "成功",
+                        "code": "A00000",
+                        "data": {
+                            "vipTypeName": "黄金VIP会员",
+                            "autoRenewSuits": [{
+                                "amount": 12,
+                                "autorenewTip": "",
+                                "originalPrice": 19800,
+                                "payAutoRenew": "3",
+                                "description": "12个月",
+                                "pid": "a0226bd958843452",
+                                "recommend": 1,
+                                "sort": 1,
+                                "privilege": 2000,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 2000,
+                                    "needPayFee": 17800,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 665,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 4000,
+                                    "needPayFee": 15800,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 667,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 2,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "银行卡",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "买年卡首次绑卡立减20元"
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 17800,
+                                "price": 17800,
+                                "id": 2774,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "送京东会员年卡",
+                                "marketingPositionWords": ""
+                            }, {
+                                "amount": 3,
+                                "autorenewTip": "",
+                                "originalPrice": 5800,
+                                "payAutoRenew": "3",
+                                "description": "3个月",
+                                "pid": "a0226bd958843452",
+                                "recommend": 0,
+                                "sort": 2,
+                                "privilege": 1300,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 1300,
+                                    "needPayFee": 4500,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 661,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 2800,
+                                    "needPayFee": 3000,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 663,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 2,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "银行卡",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "买季卡首次绑卡立减15元"
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 4500,
+                                "price": 4500,
+                                "id": 2773,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "",
+                                "marketingPositionWords": ""
+                            }, {
+                                "amount": 1,
+                                "autorenewTip": "",
+                                "originalPrice": 1980,
+                                "payAutoRenew": "3",
+                                "description": "1个月",
+                                "pid": "a0226bd958843452",
+                                "recommend": 0,
+                                "sort": 3,
+                                "privilege": 480,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 480,
+                                    "needPayFee": 1500,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 656,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 1480,
+                                    "needPayFee": 500,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 658,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 2,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "银行卡",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "买月卡首次绑卡立减10元"
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 480,
+                                    "needPayFee": 1500,
+                                    "payType": 70,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 660,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 3,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "手机话费",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 5,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "不参与新用户首月6元活动"
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 1500,
+                                "price": 1500,
+                                "id": 2772,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "新用户首月6元",
+                                "marketingPositionWords": ""
+                            }],
+                            "userAutoRenew": 0,
+                            "storeNodeLocations": {
+                                "vipTypeCornerLocation": {
+                                    "icon": "http://www.iqiyipic.com/common/fix/vipcash/cash-icon-gold.png",
+                                    "text": "黄金VIP会员",
+                                    "url": ""
+                                },
+                                "tabActivityLocation": {
+                                    "icon": "",
+                                    "text": "电脑、手机、iPad 均可使用~",
+                                    "url": ""
+                                },
+                                "topActivityLocation": {
+                                    "icon": "",
+                                    "text": "特惠0.5元/天升级钻石会员，增加TV端超爽大屏特权",
+                                    "url": ""
+                                }
+                            },
+                            "vipType": 1,
+                            "showAutoRenew": "1",
+                            "suits": [{
+                                "amount": 12,
+                                "autorenewTip": "",
+                                "originalPrice": 19800,
+                                "payAutoRenew": "0",
+                                "description": "12个月",
+                                "pid": "a0226bd958843452",
+                                "recommend": 1,
+                                "sort": 1,
+                                "privilege": 0,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 0,
+                                    "needPayFee": 19800,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 666,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 2000,
+                                    "needPayFee": 17800,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 668,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 2,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "银行卡",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "买年卡首次绑卡立减20元"
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 0,
+                                    "needPayFee": 19800,
+                                    "payType": 32,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 671,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 3,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "奇豆支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 6,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 19800,
+                                "price": 19800,
+                                "id": 2771,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "送京东会员年卡",
+                                "marketingPositionWords": ""
+                            }, {
+                                "amount": 3,
+                                "autorenewTip": "",
+                                "originalPrice": 5800,
+                                "payAutoRenew": "0",
+                                "description": "3个月",
+                                "pid": "a0226bd958843452",
+                                "recommend": 0,
+                                "sort": 2,
+                                "privilege": 0,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 0,
+                                    "needPayFee": 5800,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 662,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 1500,
+                                    "needPayFee": 4300,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 664,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 2,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "银行卡",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "买季卡首次绑卡立减15元"
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 0,
+                                    "needPayFee": 5800,
+                                    "payType": 32,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 670,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 3,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "奇豆支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 6,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 5800,
+                                "price": 5800,
+                                "id": 2770,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "",
+                                "marketingPositionWords": ""
+                            }, {
+                                "amount": 1,
+                                "autorenewTip": "",
+                                "originalPrice": 1980,
+                                "payAutoRenew": "0",
+                                "description": "1个月",
+                                "pid": "a0226bd958843452",
+                                "recommend": 0,
+                                "sort": 3,
+                                "privilege": 0,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 0,
+                                    "needPayFee": 1980,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 657,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 1000,
+                                    "needPayFee": 980,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 659,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 2,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "银行卡",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": "买月卡首次绑卡立减10元"
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 0,
+                                    "needPayFee": 1980,
+                                    "payType": 32,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 669,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 3,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "奇豆支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 6,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 1980,
+                                "price": 1980,
+                                "id": 2769,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "",
+                                "marketingPositionWords": ""
+                            }],
+                            "userInfo": {
+                                "vipDeadline": "2099-12-11",
+                                "isVipUser": true,
+                                "vipSuperscript": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png"
+                            }
+                        }
+                    }
+                }
+            },
+            "diamond": {
+                "body": {
+                    "code": "A00000",
+                    "data": {
+                        "msg": "成功",
+                        "code": "A00000",
+                        "data": {
+                            "vipTypeName": "钻石VIP会员",
+                            "autoRenewSuits": [{
+                                "amount": 1,
+                                "autorenewTip": "",
+                                "originalPrice": 4980,
+                                "payAutoRenew": "3",
+                                "description": "连续包月",
+                                "pid": "adb3376b039b970b",
+                                "recommend": 1,
+                                "sort": 1,
+                                "privilege": 0,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 0,
+                                    "needPayFee": 4980,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1427,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "银行卡支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 0,
+                                    "needPayFee": 4980,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1018,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": null,
+                                "needPayFee": 4980,
+                                "price": 4980,
+                                "id": 14653,
+                                "marketingPositionUrl": null,
+                                "supportCoupon": 1,
+                                "giftMonths": 0,
+                                "promotion": null,
+                                "marketingPositionWords": null
+                            }, {
+                                "amount": 3,
+                                "autorenewTip": "",
+                                "originalPrice": 14800,
+                                "payAutoRenew": "3",
+                                "description": "连续包季",
+                                "pid": "adb3376b039b970b",
+                                "recommend": 0,
+                                "sort": 2,
+                                "privilege": 0,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 0,
+                                    "needPayFee": 14800,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1429,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "银行卡支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "ALI,WECHAT",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 0,
+                                    "needPayFee": 14800,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1019,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": null,
+                                "needPayFee": 14800,
+                                "price": 14800,
+                                "id": 14654,
+                                "marketingPositionUrl": null,
+                                "supportCoupon": 1,
+                                "giftMonths": 0,
+                                "promotion": null,
+                                "marketingPositionWords": null
+                            }, {
+                                "amount": 12,
+                                "autorenewTip": "",
+                                "originalPrice": 49800,
+                                "payAutoRenew": "3",
+                                "description": "连续包年",
+                                "pid": "adb3376b039b970b",
+                                "recommend": 0,
+                                "sort": 3,
+                                "privilege": 20000,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 20000,
+                                    "needPayFee": 29800,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1426,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 20000,
+                                    "needPayFee": 29800,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1431,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 1,
+                                    "name": "银行卡支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": null,
+                                "needPayFee": 29800,
+                                "price": 29800,
+                                "id": 14656,
+                                "marketingPositionUrl": null,
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": null,
+                                "marketingPositionWords": null
+                            }],
+                            "userInfo": {
+                                "vipSuperscript": "",
+                                "type": "1",
+                                "vipDeadline": "2019-01-30 17:07:42",
+                                "isVipUser": true
+                            },
+                            "userAutoRenew": 1,
+                            "storeNodeLocations": {
+                                "vipTypeCornerLocation": {
+                                    "icon": "http://www.iqiyipic.com/common/fix/vipcash/cash-icon-diamonds.png",
+                                    "text": "钻石VIP会员",
+                                    "url": ""
+                                },
+                                "tabActivityLocation": {
+                                    "icon": "",
+                                    "text": "适用于电视/电脑/手机/iPad",
+                                    "url": ""
+                                }
+                            },
+                            "vipType": 4,
+                            "showAutoRenew": "2",
+                            "suits": [{
+                                "amount": 1,
+                                "autorenewTip": "",
+                                "originalPrice": 49800,
+                                "payAutoRenew": "0",
+                                "description": "1个月",
+                                "pid": "adb3376b039b970b",
+                                "recommend": 0,
+                                "sort": 1,
+                                "privilege": 49799,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 49799,
+                                    "needPayFee": 1,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1425,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "银行卡支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "ALI,WECHAT",
+                                    "payAutoRenew": 0,
+                                    "icon": "",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 49799,
+                                    "needPayFee": 1,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 978,
+                                    "lang": "zh_CN",
+                                    "amount": 1,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 0,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 1,
+                                "price": 1,
+                                "id": 15674,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "钻石月简体PCW",
+                                "marketingPositionWords": ""
+                            }, {
+                                "amount": 3,
+                                "autorenewTip": "",
+                                "originalPrice": 49800,
+                                "payAutoRenew": "0",
+                                "description": "3个月",
+                                "pid": "adb3376b039b970b",
+                                "recommend": 0,
+                                "sort": 2,
+                                "privilege": 49799,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 49799,
+                                    "needPayFee": 1,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1428,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "银行卡支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "ALI,WECHAT,BAIDU",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 49799,
+                                    "needPayFee": 1,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1020,
+                                    "lang": "zh_CN",
+                                    "amount": 3,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": "",
+                                "needPayFee": 1,
+                                "price": 1,
+                                "id": 15675,
+                                "marketingPositionUrl": "",
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "",
+                                "marketingPositionWords": ""
+                            }, {
+                                "amount": 12,
+                                "autorenewTip": "",
+                                "originalPrice": 49800,
+                                "payAutoRenew": "0",
+                                "description": "12个月",
+                                "pid": "adb3376b039b970b",
+                                "recommend": 1,
+                                "sort": 3,
+                                "privilege": 49799,
+                                "type": 1,
+                                "payTypeOptions": [{
+                                    "supportType": "",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 0,
+                                    "privilege": 49799,
+                                    "needPayFee": 1,
+                                    "payType": 95,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1430,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "银行卡支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }, {
+                                    "supportType": "ALI,WECHAT",
+                                    "payAutoRenew": 0,
+                                    "icon": "http://pic3.qiyipic.com/common/20180507/CARDPAY.png",
+                                    "description": "",
+                                    "recommend": 1,
+                                    "privilege": 49799,
+                                    "needPayFee": 1,
+                                    "payType": 378,
+                                    "balance": "",
+                                    "autoRenew": 0,
+                                    "iconUrl": "",
+                                    "id": 1021,
+                                    "lang": "zh_CN",
+                                    "amount": 12,
+                                    "autoRenewTip": "",
+                                    "sort": 1,
+                                    "dealType": "",
+                                    "supportPurchase": false,
+                                    "enableAUtoRenew": false,
+                                    "monthly": 0,
+                                    "name": "扫码支付",
+                                    "moneyUnit": "CNY",
+                                    "payChannel": 8,
+                                    "region": "cn",
+                                    "subPromotion": "",
+                                    "promotion": ""
+                                }],
+                                "actCode": "",
+                                "marketingPositionIcon": null,
+                                "needPayFee": 1,
+                                "price": 1,
+                                "id": 14657,
+                                "marketingPositionUrl": null,
+                                "supportCoupon": 0,
+                                "giftMonths": 0,
+                                "promotion": "",
+                                "marketingPositionWords": null
+                            }]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "url": "//i.vip.iqiyi.com/pay/dopay.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "data": {
+                    "redirectUrl": "http://123.125.117.36/pay/gateway.action?charset=UTF-8&description=%E5%A5%87%E8%89%BA%E9%AB%98%E6%B8%85%E8%A7%86%E9%A2%91&expire_time=24h&extend_params=&fee=1&ip=10.1.222.210&notify_url=http%3A%2F%2F10.10.131.149%3A8098%2Fpay%2Fnotify%2Fcommonpay.action&partner=qiyue&partner_order_no=201501101730208600301&pay_type=BFBDUT&pid=payParamPid&return_request=json&return_url=http%3A%2F%2Fi.vip.iqiyi.com%2Fpay%2Freturn%2Fcommonpay.action&service=pay_by_api&show_url=http%3A%2F%2Fvip.iqiyi.com&sign=6c9ec634fab4b73ab4290aa67de6fae1&subject=%E9%BB%84%E9%87%91%E5%A5%97%E9%A4%90&uid=1026396271&user_account=payParamUserAccount&version=1.0",
+                    "orderCode": "01501101823361400601"
+                },
+                "payType": 70,
+                "code": "A00000",
+                "msg": "成功"
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/order/queryOrderStat.action",
+        "options": {
+            "qrcode": {
+                "needPars": "orderSeq",
+                "body": {
+                    "code": "A00000",
+                    "data": {
+                        "data": {
+                            "amount": 1,
+                            "status": 1,
+                            "name": "奇艺高清",
+                            "userName": "2e8c60c6c78f4e1c8b46b228d3907fc5UrdC",
+                            "type": 0
+                        },
+                        "code": "A00000",
+                        "msg": "成功"
+                    }
+                }
+            },
+            "mobile": {
+                "needPars": "orderCode",
+                "body": {
+                    "code": "A00000",
+                    "data": {
+                        "data": {
+                            "amount": 1,
+                            "status": 1,
+                            "name": "奇艺高清",
+                            "userName": "2e8c60c6c78f4e1c8b46b228d3907fc5UrdC",
+                            "type": 0
+                        },
+                        "code": "A00000",
+                        "msg": "成功"
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "url": "//www.iqiyi.com/bank/activity/list",
+        "body": {
+            "code": "A00000",
+            "msg": "成功",
+            "data": {
+                "activities": []
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/security/info/get",
+        "body": {
+            "msg": "您的零钱已经升级为零钱Plus，请至爱奇艺最新版本APP使用",
+            "code": "SUC00000",
+            "data": {
+                "balance": 0,
+                "phone": "0000000000000000000000000000000000000000000000000000000000000000",
+                "cardId": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "real_name": "0000000000000000000000000000000000000000000000000000000000000000",
+                "is_withdraw": false,
+                "real_info": 1,
+                "is_debit_card": false,
+                "password_set": true
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/card/info.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "credit_link_url": "http://m.iqiyi.com/m5/pay/applyCard.html",
+                "uid": "2090103104",
+                "cards": [{
+                    "bank_code": "CMB",
+                    "bank_name": "招商银行",
+                    "bank_icon": "http://pay.iqiyi.com/image/cashier/CMB_3x.png",
+                    "card_type_code": "CREDIT",
+                    "pay_type": "cmbcredit",
+                    "card_type": "信用卡",
+                    "card_id": "1006496064",
+                    "card_num_last": "0839"
+                }]
+            },
+            "message": "获取银行卡信息成功"
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/client/store/coupon/searchUserCoupons.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "data": {
+                    "totalNum": 7,
+                    "couponInfo": [{
+                            "key": "5B30-0052-4C4B-D944",
+                            "fee": 5,
+                            "name": "黄金5元",
+                            "conditionDes": "*满5.0元可用",
+                            "suitableAmount": "*限购买黄金会员3个月及以上套餐",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556290000,
+                            "status": 1,
+                            "usable": "0"
+                        },
+                        {
+                            "key": "5B30-3F9F-A2B8-1148",
+                            "fee": 5,
+                            "name": "黄金5元",
+                            "conditionDes": "*满5.0元可用",
+                            "suitableAmount": "*限购买黄金会员3个月及以上套餐",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556290000,
+                            "status": 1,
+                            "usable": "0"
+                        },
+                        {
+                            "key": "5B2F-1F4C-E969-0B49",
+                            "fee": 2,
+                            "name": "黄金2元",
+                            "conditionDes": "*满2.0元可用",
+                            "suitableAmount": "*限购买黄金会员非连续包套餐",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556242000,
+                            "status": 1,
+                            "usable": "0"
+                        },
+                        {
+                            "key": "5B2F-212C-CC6D-7045",
+                            "fee": 2,
+                            "name": "黄金2元",
+                            "conditionDes": "*满2.0元可用",
+                            "suitableAmount": "*限购买黄金会员非连续包套餐",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556242000,
+                            "status": 1,
+                            "usable": "0"
+                        },
+                        {
+                            "key": "5B2F-2E07-8961-4547",
+                            "fee": 2,
+                            "name": "黄金2元",
+                            "conditionDes": "*满2.0元可用",
+                            "suitableAmount": "*限购买黄金会员非连续包套餐",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556242000,
+                            "status": 1,
+                            "usable": "0"
+                        },
+                        {
+                            "key": "5B2E-2281-AF9B-DA40",
+                            "fee": 1,
+                            "name": "黄金1元",
+                            "conditionDes": "*满1.0元可用",
+                            "suitableAmount": "*限购买黄金会员",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556174000,
+                            "status": 1,
+                            "usable": "0"
+                        },
+                        {
+                            "key": "5B2E-8216-A81F-5244",
+                            "fee": 1,
+                            "name": "黄金1元",
+                            "conditionDes": "*满1.0元可用",
+                            "suitableAmount": "*限购买黄金会员",
+                            "startTime": "2018-07-24",
+                            "deadline": "2019-07-31",
+                            "deadlineTime": 1564556174000,
+                            "status": 1,
+                            "usable": "0"
+                        }
+                    ],
+                    "usableNum": 0
+                },
+                "code": "A00000",
+                "msg": "成功"
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/order/checkRealFee.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "message": "2500",
+                "code": "A00000"
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/pay/readQd.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "data": {
+                    "qd": "99999999"
+                },
+                "code": "A00000",
+                "msg": null
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/pay-web-frontend/bank/route",
+        "body": {
+            "code": "A00000",
+            "msg": "成功",
+            "data": {
+                "uid": "1211464135",
+                "is_unionpay": "0",
+                "bank_code": "CMB",
+                "bank_name": "招商银行",
+                "card_type": "2",
+                "card_type_string": "信用卡",
+                "order_code": "2018080940566001455",
+                "id_card": "",
+                "user_name": "",
+                "bank_protocol_url": "http://www.iqiyi.com/common/MRXY.html",
+                "addition_protocol_name": null,
+                "addition_protocol_url": null,
+                "bank_protocol_name": "爱奇艺协议",
+                "is_wallet_pwd_set": "0",
+                "has_off": false,
+                "has_gift": false,
+                "subject": "爱奇艺VIP会员1个月自动续费",
+                "fee": 980,
+                "off_price": 0,
+                "gift_msg": null,
+                "needCvv": false,
+                "needExpireTime": true,
+                "card_num_last": "1418",
+                "id_card_display": true,
+                "mobile_phone": "18514616569"
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/pay-web-frontend/bank/checkIdentity",
+        "body": {
+            "code": "A00000",
+            "msg": "成功",
+            "data": {
+                "channel_resp_code": "CMBMB99",
+                "channel_resp_msg": "验证通过。",
+                "trans_seq": "13020180712202320803",
+                "sms_key": "db4a4e67200004625109",
+                "cache_key": "15313982008052000046251",
+                "order_code": "2018071273382001171",
+                "fee": 17800
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/pay-web-frontend/bank/signAndPay",
+        "body": {
+            "code": "A00000",
+            "msg": "",
+            "data": {
+                "card_id": "3423525235252"
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/pay/mobile-pay-vd.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "message": "处理成功",
+                "data": {
+                    "fee": 2500,
+                    "orderCode": "201807121145441619258"
+                },
+                "serviceCode": "lyksc7aq36aedndk",
+                "payType": "70",
+                "code": "A00000",
+                "msg": "处理成功"
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/card/verifyWalletPassword.action",
+        "body": {
+            "code": "ERR00013",
+            "message": "密码没有设置"
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/security/key/getSecret",
+        "body": {
+            "msg": "成功",
+            "code": "SUC00000",
+            "data": {
+                "str": "LfZr4vfalkIW7Zys0y+NbFysCX9jc+53MDJWR7LqVJI=",
+                "key": "5n6hd8gmb0bpmjmm26lktt3abiiu8sx5"
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/pay/pc/productUpgradeInfo.action",
+        "body": {
+            "message": "成功",
+            "data": {
+                "topBanner": null,
+                "deadlineDays": 353,
+                "price": 50,
+                "suiteABTestGroupId": "A",
+                "selectMonthes": [{
+                        "price": 17650,
+                        "dayAmount": 353
+                    },
+                    {
+                        "price": 16500,
+                        "dayAmount": 330
+                    },
+                    {
+                        "price": 15000,
+                        "dayAmount": 300
+                    },
+                    {
+                        "price": 13500,
+                        "dayAmount": 270
+                    },
+                    {
+                        "price": 12000,
+                        "dayAmount": 240
+                    },
+                    {
+                        "price": 10500,
+                        "dayAmount": 210
+                    },
+                    {
+                        "price": 9000,
+                        "dayAmount": 180
+                    },
+                    {
+                        "price": 7500,
+                        "dayAmount": 150
+                    },
+                    {
+                        "price": 6000,
+                        "dayAmount": 120
+                    },
+                    {
+                        "price": 4500,
+                        "dayAmount": 90
+                    },
+                    {
+                        "price": 3000,
+                        "dayAmount": 60
+                    },
+                    {
+                        "price": 1500,
+                        "dayAmount": 30
+                    }
+                ],
+                "pid": "94f865839c851009",
+                "commonPayList": [{
+                        "sort": 1,
+                        "iconUrl": "",
+                        "promotion": "",
+                        "autoRenew": 0,
+                        "supportAmounts": [],
+                        "recommend": 0,
+                        "payChannel": "",
+                        "supportType": "ALI,WECHAT,BAIDU",
+                        "amount": 0,
+                        "name": "扫码支付",
+                        "payType": "378",
+                        "dealType": ""
+                    },
+                    {
+                        "sort": 0,
+                        "iconUrl": "",
+                        "promotion": "",
+                        "autoRenew": 0,
+                        "supportAmounts": [],
+                        "recommend": 1,
+                        "payChannel": "8",
+                        "supportType": "",
+                        "amount": 0,
+                        "name": "银行卡",
+                        "payType": "95",
+                        "dealType": ""
+                    },
+                    {
+                        "sort": 3,
+                        "iconUrl": "",
+                        "promotion": "",
+                        "autoRenew": 0,
+                        "supportAmounts": [],
+                        "recommend": 0,
+                        "payChannel": "6",
+                        "supportType": "",
+                        "amount": 0,
+                        "name": "奇豆支付",
+                        "payType": "32",
+                        "dealType": ""
+                    }
+                ],
+                "canUpgradeMaxDays": 353,
+                "dutPayList": []
+            },
+            "code": "A00000"
+        }
+    },
+    {
+        "url": "http://serv.vip.iqiyi.com/pay/queryLayer.action",
+        "body": {
+            "code": "A00000",
+            "msg": "成功",
+            "data": {
+                "isSupportMonth": false,
+                "validityPeriod": "2018-07-19 15:09:39",
+                "originPrice": 500,
+                "pid": "9c0b7c568db863ea",
+                "code": "A00000",
+                "vipContentType": 0,
+                "msg": "成功",
+                "isSupportVodCoupon": true,
+                "contentPictureUrl": "http://pic7.qiyipic.com/image/20180305/aa/e3/v_112982573_m_601_m4_170_100.jpg",
+                "price": 500,
+                "validity": "48小时",
+                "vodCouponCount": 0,
+                "isSupportVod": true,
+                "vipPrice": 250,
+                "halfPrice": 250,
+                "serviceCode": "lyksc7aq36aedndk",
+                "isSupportPackage": false,
+                "marketTip": null,
+                "isPreView": false
+            }
+        }
+    },
+    {
+        "url": "http://act.vip.iqiyi.com/interact/api/show",
+        "body": {
+            "code": "A00000",
+            "msg": "成功",
+            "data": {
+                "code": "856e1ce71a229924A00000",
+                "type": 108,
+                "detail": {
+                    "qipao_fc": "a9cd28c0ee0fd2ba",
+                    "redirectUrl1": "",
+                    "text1": "首月仅6元"
+                }
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/client/store/coupon/readCoupon.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "data": {},
+                "code": "A00000",
+                "msg": "代金券不存在"
+            }
+        }
+    },
+    {
+        "url": "http://passport.iqiyi.com/apis/user/info/queryWithVerify.action",
+        "Content-Type": "text/html",
+        "body": {
+            "msg": null,
+            "code": "A00000",
+            "data": {
+                "qiyi_vip_info": {
+                    "name": "混沌_chao",
+                    "level": "3",
+                    "vipType": "1",
+                    "autoRenew": "0",
+                    "payType": "0",
+                    "status": "1",
+                    "type": "1",
+                    "mobile": "15910707069",
+                    "surplus": "311",
+                    "deadline": {
+                        "date": "2019年07月28日",
+                        "t": 1564300132000
+                    }
+                },
+                "insecure_account": 0,
+                "ablogin": 0,
+                "tokens": {},
+                "accounts": [{
+                    "account": "temberature@126.com",
+                    "type": 10,
+                    "is_main": false
+                }, {
+                    "account": "2000046251@baidu",
+                    "type": 1,
+                    "is_main": true
+                }],
+                "userinfo": {
+                    "status": null,
+                    "suid": "2000046251",
+                    "email": "temberature@126.com",
+                    "phone": "15910707069",
+                    "user_name": "temberature@126.com",
+                    "activated": 1,
+                    "area_code": "86",
+                    "pwdScore": 45,
+                    "regip": "61.132.138.214",
+                    "province": null,
+                    "city": null,
+                    "uid": "2000046251",
+                    "macid": null,
+                    "nickname": "混沌_chaos",
+                    "accountType": 10,
+                    "self_intro": null,
+                    "jointime": "1310706808",
+                    "idCard": null,
+                    "birthday": null,
+                    "gender": null,
+                    "pru": 2000046251,
+                    "work": null,
+                    "real_name": null,
+                    "edu": null,
+                    "income": null,
+                    "industry": null,
+                    "icon": "http://www.iqiyipic.com/common/fix/headicons/male-130.png",
+                    "find_pass_email": null
+                },
+                "verify_info": {
+                    "name": null,
+                    "type": 0,
+                    "source": 0,
+                    "level": 0,
+                    "introduce": null,
+                    "verifyState": 0,
+                    "copyright": 0,
+                    "verifyClass": 0,
+                    "recommendation": null,
+                    "spaceShowTemplate": null,
+                    "verifyAlias": null,
+                    "is_verified": false
+                },
+                "qiyi_tennis_vip": null
+            }
+        }
+    },
+    {
+        "url": "http://pcw-api.iqiyi.com/vip/serv/qualification",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "code": "A00000",
+                "data": {
+                    "data": {
+                        "code": "A00000",
+                        "data": [],
+                        "msg": "<E6><9C><AA><E7><99><BB><E5><BD><95><E7><94><A8><E6><88><B7>"
+                    },
+                    "code": "A00000"
+                }
+            }
+        }
+    },
+    {
+        "url": "https://i.vip.iqiyi.com/pc/payconfirm/confirmOrderStat.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "msg": "成功",
+                "code": "A00000",
+                "data": {
+                    "realFee": 2,
+                    "amount": 1,
+                    "timeType": 0,
+                    "pid": "adb3376b039b970b",
+                    "userName": "Test_Offline678683",
+                    "type": 1,
+                    "platform": "b6c13e26323c537d",
+                    "productName": "钻石VIP会员",
+                    "isAutoRenew": 0,
+                    "unit": 2,
+                    "todoAutoRenew": 3,
+                    "orderCode": "201810291453153200601",
+                    "returnUrl": "http://vip.iqiyi.com",
+                    "deadline": "2018年11月29日",
+                    "aid": null,
+                    "status": 1,
+                    "gifts": [
+
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "url": "https://openapi.vip.iqiyi.com/buypresent/get.action",
+        "body": {
+            "code": "A00000",
+            "data": {
+                "code": "A00000",
+                "data": [],
+                "msg": ""
+            }
+        }
+    },
+    {
+        "url": "http://www.iqiyi.com/security/pwd/wh_set_by_order",
+        "body": {
+            "msg": "passport您的登录已失效，请重新输入密码登录",
+            "code": "SUC00000"
+        }
+    },
+    {
+        "url": "//ip.if.iqiyi.com/cityjson",
+        "options": {
+            "mainland": {
+                "body": {
+                    "code": "A00000",
+                    "data": {
+                        "country": "中国",
+                        "province": "北京",
+                        "city": "北京",
+                        "country_id": 48,
+                        "province_id": 1,
+                        "city_id": 1000,
+                        "location_id": 77001000,
+                        "isp_id": 77,
+                        "isp": "联通",
+                        "ip": "202.108.14.16"
+                    }
+                }
+            },
+            "international": {
+                "body": {
+                    "code": "A00000",
+                    "data": {
+                        "country": "中国",
+                        "province": "台湾",
+                        "city": "台南",
+                        "country_id": 48,
+                        "province_id": 228,
+                        "city_id": 228006,
+                        "location_id": 47228000,
+                        "isp_id": 47,
+                        "isp": "海外",
+                        "ip": "223.26.106.75"
+                    }
+                }
+            }
+        }
+
+    },
+    {
+        "url": "http://act.vip.iqiyi.com/interact/api/v2/show",
+        "body": {
+            "code": "A00000",
+            "msg": "成功",
+            "data": [{
+                "interfaceCode": "a625761c1ef11138",
+                "interfaceData": {
+                    "respCode": "A00000",
+                    "respMsg": "策略条件不满足",
+                    "respData": null
+                }
+            }]
+        }
+    }
+]
