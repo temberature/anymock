@@ -19,57 +19,63 @@ module.exports = {
     const RESTAPIS = getJSON("./mock/RESTAPI.json");
     const RESTAPISConfig = getJSON("./mock/RESTAPI.config.json");
     let match;
-    const matchConfig = RESTAPISConfig.filter(config => {
-      return url.startsWith(removeProtocal(config.URL));
-    })[0];
-    if (matchConfig && matchConfig.choices !== 0) {
-      const matchURL = removeProtocal(matchConfig.URL);
-      match = RESTAPIS.some(RESTAPI => {
-        if (matchURL === removeProtocal(RESTAPI.url)) {
-          // console.log(RESTAPI);
-          if (matchConfig.OPTIONS) {
-            const choice = matchConfig.choices.filter(choice => {
-              console.log(matchURL, RESTAPI.options, choice);
+    if (RESTAPISConfig.disabled) {
+      const matchConfig = RESTAPISConfig.configs.filter(config => {
+        return url.startsWith(removeProtocal(config.URL));
+      })[0];
+      if (matchConfig && matchConfig.choices !== 0) {
+        const matchURL = removeProtocal(matchConfig.URL);
+        match = RESTAPIS.some(RESTAPI => {
+          if (matchURL === removeProtocal(RESTAPI.url)) {
+            // console.log(RESTAPI);
+            if (matchConfig.OPTIONS) {
+              const choice = matchConfig.choices.filter(choice => {
+                console.log(matchURL, RESTAPI.options, choice);
+                const option = RESTAPI.options[choice];
+                return !option.needPars || pars[option.needPars];
+              })[0];
               const option = RESTAPI.options[choice];
-              return !option.needPars || pars[option.needPars];
-            })[0];
-            const option = RESTAPI.options[choice];
-            // console.log(option);
-            if (!option) {
-              return;
-            }
-            if (!option.needPars || pars[option.needPars]) {
-              response = createRes(callback, option);
-              return true;
-            }
-          } else {
-            if (!RESTAPI.needPars || pars[RESTAPI.needPars]) {
-              response = createRes(callback, RESTAPI);
-              return true;
+              // console.log(option);
+              if (!option) {
+                return;
+              }
+              if (!option.needPars || pars[option.needPars]) {
+                response = createRes(callback, option);
+                return true;
+              }
+            } else {
+              if (!RESTAPI.needPars || pars[RESTAPI.needPars]) {
+                response = createRes(callback, RESTAPI);
+                return true;
+              }
             }
           }
-        }
-      });
+        });
+      }
     }
+
 
     if (!match) {
       const filemap = new Map(Object.entries(getJSON("./mock/filemap.json")));
-      filemap.forEach((local, online) => {
-        // console.log(online, url.startsWith(removeProtocal(online)));
-        if (url.startsWith(removeProtocal(online))) {
-          match = true;
-          response = {
-            statusCode: 200,
-            header: {
-              "Content-Type": contentTypeMap[path.extname(local)],
-            },
-            body: fs.readFileSync(local, {
-              encoding: "utf-8"
-            })
-          };
-          // console.log(response);
-        }
-      })
+      if (filemap.disabled) {
+        filemap.map.forEach((local, online) => {
+          // console.log(online, url.startsWith(removeProtocal(online)));
+          if (url.startsWith(removeProtocal(online))) {
+            match = true;
+            response = {
+              statusCode: 200,
+              header: {
+                "Content-Type": contentTypeMap[path.extname(local)],
+              },
+              body: fs.readFileSync(local, {
+                encoding: "utf-8"
+              })
+            };
+            // console.log(response);
+          }
+        })
+      }
+
     }
     // console.log(match);
     if (match) {
