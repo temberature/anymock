@@ -1,5 +1,5 @@
 {
-    "disabled": true,
+    "disabled": false,
     "configs": [{
             "URL": "//ip.if.iqiyi.com/cityjson",
             "OPTIONS": ["mainland", "international"],

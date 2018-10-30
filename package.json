@@ -2,9 +2,10 @@
   "name": "@tiandatong/anymock",
   "version": "0.1.2",
   "description": "mock service base on Anyproxy.",
-  "main": "anyproxy.config.js",
+  "main": "lib/anymock.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest --testMatch \"<rootDir>/test/*.unittest.js\""
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "semantic-release": "^15.10.6"
   },
   "dependencies": {
-    "anyproxy": "^4.0.12"
+    "anyproxy": "^4.0.12",
+    "ramda": "^0.25.0"
   }
 }
