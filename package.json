@@ -4,7 +4,7 @@
   "description": "mock service base on Anyproxy.",
   "main": "lib/anymock.js",
   "scripts": {
-    "test": "jest",
+    "test": "npm run test:unit",
     "test:unit": "jest --testMatch \"<rootDir>/test/*.unittest.js\""
   },
   "repository": {
