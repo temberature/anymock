@@ -1,5 +1,5 @@
 {
-    "disabled": false,
+    "disabled": true,
     "map": {
         "//static.iqiyi.com/js/qiyiVipPay/entry-vipPay": "./build/entry-vipPay.js",
         "//static.iqiyi.com/js/qiyiVipPay/entry-bankcardPay": "./build/entry-bankcardPay.js",
