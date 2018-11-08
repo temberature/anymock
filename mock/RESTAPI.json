@@ -4,7 +4,8 @@
             "gold": {
                 "request": {
                     "queries": {
-                        "vipType": "1"
+                        "vipType": "1",
+                        "P00001": 1
                     }
                 },
                 "body": {
@@ -612,7 +613,8 @@
             "diamondNotLogin": {
                 "request": {
                     "queries": {
-                        "vipType": "4"
+                        "vipType": "4",
+                        "P00001": 0
                     }
                 },
                 "body": {
@@ -621,7 +623,7 @@
                         "msg": "成功",
                         "code": "A00000",
                         "data": {
-                            "vipTypeName": "钻石VIP会员",
+                            "vipTypeName": "钻石VIP会员3",
                             "autoRenewSuits": [{
                                 "amount": 12,
                                 "autorenewTip": "到期后自动续费1年，可随时取消",
@@ -1124,7 +1126,7 @@
                 "request": {
                     "queries": {
                         "vipType": "4",
-                        "P00001": "1el6tTVC2n4q6CVz3zbaLTBr7l0fnDm10IjRLWyNOQGSIT89QqcC1tbYnNlqeXlb5m2gd9"
+                        "P00001": 1
                     }
                 },
                 "body": {
@@ -1691,7 +1693,24 @@
             "code": "SUC00000",
             "data": {
                 "balance": 0,
-                "phone": "0000000000000000000000000000000000000000000000000000000000000000",
+                "phone": "00000000000000000000000000000000000000000000000000000000000000001",
+                "cardId": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "real_name": "0000000000000000000000000000000000000000000000000000000000000000",
+                "is_withdraw": false,
+                "real_info": 1,
+                "is_debit_card": false,
+                "password_set": true
+            }
+        }
+    },
+    {
+        "url": "http://vip.iqiyi.com/security/info/get",
+        "body": {
+            "msg": "您的零钱已经升级为零钱Plus，请至爱奇艺最新版本APP使用",
+            "code": "SUC00000",
+            "data": {
+                "balance": 0,
+                "phone": "00000000000000000000000000000000000000000000000000000000000000001",
                 "cardId": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                 "real_name": "0000000000000000000000000000000000000000000000000000000000000000",
                 "is_withdraw": false,
@@ -1926,6 +1945,13 @@
         "body": {
             "code": "ERR00013",
             "message": "密码没有设置"
+        }
+    },
+    {
+        "url": "//vip.iqiyi.com/card/verifyWalletPassword.action",
+        "body": {
+            "code": "A00000",
+            "message": ""
         }
     },
     {

@@ -8,7 +8,7 @@
         {
             "URL": "//i.vip.iqiyi.com/client/store/pc/checkout.action",
             "OPTIONS": ["gold", "diamondNotLogin", "diamond"],
-            "choices": ["diamond", "diamondNotLogin"]
+            "choices": ["gold", "diamondNotLogin", "diamond"]
         },
         {
             "URL": "//i.vip.iqiyi.com/order/queryOrderStat.action",
@@ -34,6 +34,18 @@
         {
             "URL": "//passport.iqiyi.com/apis/user/info/queryWithVerify.action",
             "choices": 0
+        },
+        {
+            "URL": "//vip.iqiyi.com/security/info/get",
+            "choices": 1
+        },
+        {
+            "URL": "//vip.iqiyi.com/card/info.action",
+            "choices": 1
+        },
+        {
+            "URL": "//vip.iqiyi.com/card/verifyWalletPassword.action",
+            "choices": 1
         }
     ]
 }
