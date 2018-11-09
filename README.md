@@ -1,6 +1,19 @@
-# Anymock
+<h1 align="center">Anymock</h1>
 
-One Paragraph of project description goes here
+<div align="center">
+
+mock service base on [Anyproxy](https://www.npmjs.com/package/anyproxy).
+
+[![Build Status](https://travis-ci.org/temberature/anymock.svg?branch=master)](https://travis-ci.org/temberature/anymock)
+[![Codecov](https://img.shields.io/codecov/c/github/temberature/anymock/master.svg?style=flat-square)](https://codecov.io/gh/temberature/anymock/branch/master)
+[![Dependencies](https://img.shields.io/david/temberature/anymock.svg)](https://david-dm.org/temberature/anymock)
+[![DevDependencies](https://img.shields.io/david/dev/temberature/anymock.svg)](https://david-dm.org/temberature/anymock?type=dev)
+[![npm package](https://img.shields.io/npm/v/@tiandatong/anymock.svg?style=flat-square)](https://www.npmjs.org/package/@tiandatong/anymock)
+[![NPM downloads](http://img.shields.io/npm/dm/@tiandatong/anymock.svg?style=flat-square)](http://npmjs.com/@tiandatong/anymock)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/temberature/anymock.svg)](http://isitmaintained.com/project/temberature/anymock "Percentage of issues still open")
+
+</div>
+English | [简体中文](./README-zh_CN.md)
 
 ## Getting Started
 
