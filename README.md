@@ -22,7 +22,7 @@ English | [简体中文](./docs/README-zh_CN.md)
 ### Installing
 
 ```bash
-npm install anymock -g
+npm install @tiandatong/anymock -g
 ```
 
 ### Usage
