@@ -8,42 +8,93 @@ mock service base on [Anyproxy](https://www.npmjs.com/package/anyproxy).
 [![Codecov](https://img.shields.io/codecov/c/github/temberature/anymock/master.svg?style=flat-square)](https://codecov.io/gh/temberature/anymock/branch/master)
 [![Dependencies](https://img.shields.io/david/temberature/anymock.svg)](https://david-dm.org/temberature/anymock)
 [![DevDependencies](https://img.shields.io/david/dev/temberature/anymock.svg)](https://david-dm.org/temberature/anymock?type=dev)
+
 [![npm package](https://img.shields.io/npm/v/@tiandatong/anymock.svg?style=flat-square)](https://www.npmjs.org/package/@tiandatong/anymock)
 [![NPM downloads](http://img.shields.io/npm/dm/@tiandatong/anymock.svg?style=flat-square)](http://npmjs.com/@tiandatong/anymock)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/temberature/anymock.svg)](http://isitmaintained.com/project/temberature/anymock "Percentage of issues still open")
 
 </div>
-English | [简体中文](./README-zh_CN.md)
+
+English | [简体中文](./docs/README-zh_CN.md)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+```bash
+npm install anymock -g
 ```
 
-And repeat
+### Usage
 
-```
-until finished
+create a directory contains RESTAPI.config.json and RESTAPI.json
+
+#### RESTAPI.config.json
+
+```json
+{
+    "disabled": false,
+    "configs": [{
+        "URL": "//api.github.com/repos/temberature/anymock/branches",
+        "OPTIONS": ["normal", "protected"],
+        "choices": ["normal"]
+    }]
+}
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+#### RESTAPI.json
+
+```json
+[{
+    "url": "//api.github.com/repos/temberature/anymock/branches",
+    "options": {
+        "normal": {
+            "request": {
+                "queries": {
+                    "protected": "0"
+                }
+            },
+            "body": [{
+                "name": "master1",
+                "commit": {
+                    "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
+                    "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
+                }
+            }]
+        },
+        "protected": {
+            "request": {
+                "queries": {
+                    "protected": "1"
+                }
+            },
+            "body": {
+                "message": "Not Found2",
+                "documentation_url": "https://developer.github.com/v3/repos/branches/#list-branches"
+            }
+        }
+    }
+}]
+```
+
+run command below in the root dir
+
+```bash
+anymock
+```
+
+then you can request https://api.github.com/repos/temberature/anymock/branches?protected=0
+and see the corresponding result
+
+```json
+[{
+    "name": "master1",
+    "commit": {
+        "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
+        "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
+    }
+}]
+```
 
 ## Running the tests
 
@@ -53,41 +104,30 @@ Explain how to run the automated tests for this system
 
 Explain what these tests test and why
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+npm test
 ```
 
-## Deployment
+## Development
 
-Add additional notes about how to deploy this on a live system
+```bash
+git clone https://github.com/temberature/anymock.git
+cd anymock
+npm install
+npm start
+```
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Anyproxy](https://www.npmjs.com/package/anyproxy)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## License
 
@@ -95,6 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Inspiration: [moco](https://github.com/dreamhead/moco),[wiremock](https://github.com/tomakehurst/wiremock)

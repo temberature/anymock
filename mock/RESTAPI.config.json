@@ -1,6 +1,10 @@
 {
     "disabled": false,
     "configs": [{
+            "URL": "//api.github.com/repos/temberature/anymock/branches",
+            "OPTIONS": ["normal", "protected"],
+            "choices": ["normal"]
+        }, {
             "URL": "//ip.if.iqiyi.com/cityjson",
             "OPTIONS": ["mainland", "international"],
             "choices": 0
