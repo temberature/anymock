@@ -1,16 +1,22 @@
 {
   "name": "@tiandatong/anymock",
-  "version": "0.1.2",
+  "version": "0.0.0-development",
   "description": "mock service base on Anyproxy.",
   "main": "lib/anymock.js",
   "bin": "lib/anymock.js",
   "scripts": {
     "test": "npm run test:unit",
-    "test:unit": "jest --testMatch \"<rootDir>/test/*.unittest.js\""
+    "test:unit": "jest --testMatch \"<rootDir>/test/*.unittest.js\"",
+    "semantic-release": "semantic-release",
+    "precommit": "lint-staged",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "lint-staged": {
+    "lib/**/*.js": "eslint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/temberature/anymock.git"
+    "url": "https://github.com/temberature/anymock.git"
   },
   "keywords": [
     "['mock'",
@@ -27,11 +33,20 @@
   },
   "homepage": "https://github.com/temberature/anymock#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
     "jest": "^23.6.0",
-    "semantic-release": "^15.10.6"
+    "lint-staged": "^8.0.4",
+    "pre-commit": "^1.2.2",
+    "semantic-release": "^15.10.8",
+    "travis-deploy-once": "^5.0.9"
   },
   "dependencies": {
     "anyproxy": "^4.0.12",
     "ramda": "^0.25.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
