@@ -1,17 +1,6 @@
 {
     "disabled": true,
     "map": {
-        "//static.iqiyi.com/js/qiyiVipPay/entry-vipPay": "./build/entry-vipPay.js",
-        "//static.iqiyi.com/js/qiyiVipPay/entry-bankcardPay": "./build/entry-bankcardPay.js",
-        "//static.iqiyi.com/js/qiyiVipPay/entry-succeedPayUnits": "./build/entry-succeedPayUnits.js",
-        "//static.iqiyi.com/js/qiyiVipPay/entry-playerPopup": "./build/entry-playerPopup.js",
-        "//test-pay.iqiyi.com/js/entry-vipPay": "./build/entry-vipPay.js",
-        "//test-pay.iqiyi.com/js/entry-bankcardPay": "./build/entry-bankcardPay.js",
-        "//test-pay.iqiyi.com/js/entry-succeedPayUnits": "./build/entry-succeedPayUnits.js",
-        "//test-pay.iqiyi.com/js/entry-playerPopup": "./build/entry-playerPopup.js",
-        "//test-pay.iqiyi.com/js/entry-interactiveUnits": "./build/entry-interactiveUnits.js",
-        "//static.iqiyi.com/js/lib/sea1.2.js": "./mock/sea1.2.debug.js",
-        "//static.qiyi.com/css/common/v3-vipCash/vip_cash1.0.css": "./mock/vip_cash1.0.css",
-        "//static.iqiyi.com/js/qiyiVipPay/ver.js": "./dist/ver.js"
+        "https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js": "https://cdn.bootcss.com/jquery/3.3.1/jquery.js"
     }
 }

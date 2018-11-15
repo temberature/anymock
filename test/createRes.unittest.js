@@ -19,21 +19,23 @@ describe("createRes", () => {
                 "Content-Type": "text/plain",
                 "Access-Control-Allow-Origin": "*"
             },
-            body: "callbackName(" + sampleJSONStr + ");"
+            body: "callbackName(" + sampleJSONStr + ")"
         }
         expect(Received).toEqual(Expected);
     });
     it("has callbackName, Content-Type = text/html", () => {
         expect(createRes('callbackName', {
             "Content-Type": "text/html",
-            body: sampleJSON
+            body: sampleJSON,
+            "fileHead": fileHead,
+            "fileFooter": fileFooter
         })).toEqual({
             statusCode: 200,
             header: {
                 "Content-Type": "text/html",
                 "Access-Control-Allow-Origin": "*"
             },
-            body: fileHead + "callbackName(" + sampleJSONStr + ");" + fileFooter
+            body: fileHead + "callbackName(" + sampleJSONStr + ")" + fileFooter
         });
     });
     it("no callbackName, no Content-Type", () => {

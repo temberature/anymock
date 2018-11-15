@@ -12,7 +12,7 @@ mock service base on [Anyproxy](https://www.npmjs.com/package/anyproxy).
 [![npm package](https://img.shields.io/npm/v/@tiandatong/anymock.svg?style=flat-square)](https://www.npmjs.org/package/@tiandatong/anymock)
 [![NPM downloads](http://img.shields.io/npm/dm/@tiandatong/anymock.svg?style=flat-square)](http://npmjs.com/@tiandatong/anymock)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/temberature/anymock.svg)](http://isitmaintained.com/project/temberature/anymock "Percentage of issues still open")
-
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 </div>
 
 English | [简体中文](./docs/README-zh_CN.md)
@@ -38,6 +38,9 @@ create a directory contains RESTAPI.config.json and RESTAPI.json
         "URL": "//api.github.com/repos/temberature/anymock/branches",
         "OPTIONS": ["normal", "protected"],
         "choices": ["normal"]
+    },{
+        "URL": "https://suggest.taobao.com/sug",
+        "choices": 1
     }]
 }
 ```
@@ -74,17 +77,46 @@ create a directory contains RESTAPI.config.json and RESTAPI.json
             }
         }
     }
+}, {
+    "url": "https://suggest.taobao.com/sug",
+    "default": {
+        "Content-Type": "text/html",
+        "fileHead": "",
+        "fileFooter": "",
+        "body": {
+            "result": [
+                [
+                    "apple watch4",
+                    "14770"
+                ],
+                [
+                    "apple pencil",
+                    "12500"
+                ]
+            ],
+            "shop": "apple",
+            "tmall": "apple"
+        }
+    }
 }]
 ```
 
 run command below in the root dir
 
 ```bash
-anymock
+λ anymock
+[AnyProxy Log][2018-11-15 12:35:52]: throttle :10000kb/s
+[AnyProxy Log][2018-11-15 12:35:52]: clearing cache file...
+[AnyProxy Log][2018-11-15 12:35:52]: ==>>> clearing cache
+[AnyProxy Log][2018-11-15 12:35:52]: closing webserver...
+[AnyProxy Log][2018-11-15 12:35:52]: Http proxy started on port 8001
+[AnyProxy Log][2018-11-15 12:35:52]: Active rule is: a rule to hack response
 ```
 
-then you can request https://api.github.com/repos/temberature/anymock/branches?protected=0
-and see the corresponding result
+configure chrome's proxy to http://127.0.0.1:8001 by [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+
+then you can browse https://api.github.com/repos/temberature/anymock/branches?protected=0 or https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple
+and see the corresponding mock result
 
 ```json
 [{
@@ -94,6 +126,25 @@ and see the corresponding result
         "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
     }
 }]
+```
+
+```json
+KISSY.Suggest.callback(
+{
+    "result": [
+        [
+            "apple watch4",
+            "14770"
+        ],
+        [
+            "apple pencil",
+            "12500"
+        ]
+    ],
+    "shop": "apple",
+    "tmall": "apple"
+}
+)
 ```
 
 ## Running the tests

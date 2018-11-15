@@ -1,55 +1,11 @@
 {
     "disabled": false,
     "configs": [{
-            "URL": "//api.github.com/repos/temberature/anymock/branches",
-            "OPTIONS": ["normal", "protected"],
-            "choices": ["normal"]
-        }, {
-            "URL": "//ip.if.iqiyi.com/cityjson",
-            "OPTIONS": ["mainland", "international"],
-            "choices": 0
-        },
-        {
-            "URL": "//i.vip.iqiyi.com/client/store/pc/checkout.action",
-            "OPTIONS": ["gold", "diamondNotLogin", "diamond"],
-            "choices": ["gold", "diamondNotLogin", "diamond"]
-        },
-        {
-            "URL": "//i.vip.iqiyi.com/order/queryOrderStat.action",
-            "OPTIONS": ["qrcode", "mobile"],
-            "choices": ["mobile"]
-        },
-        {
-            "URL": "//i.vip.iqiyi.com/pay/dopay.action",
-            "choices": 0
-        },
-        {
-            "URL": "//i.vip.iqiyi.com/pay/mobile-pay-vd.action",
-            "choices": 0
-        },
-        {
-            "URL": "//i.vip.iqiyi.com/pc/payconfirm/confirmOrderStat.action",
-            "choices": 0
-        },
-        {
-            "URL": "//i.vip.iqiyi.com/pay/readQd.action",
-            "choices": 0
-        },
-        {
-            "URL": "//passport.iqiyi.com/apis/user/info/queryWithVerify.action",
-            "choices": 0
-        },
-        {
-            "URL": "//vip.iqiyi.com/security/info/get",
-            "choices": 1
-        },
-        {
-            "URL": "//vip.iqiyi.com/card/info.action",
-            "choices": 1
-        },
-        {
-            "URL": "//vip.iqiyi.com/card/verifyWalletPassword.action",
-            "choices": 1
-        }
-    ]
+        "URL": "//api.github.com/repos/temberature/anymock/branches",
+        "OPTIONS": ["normal", "protected"],
+        "choices": ["normal"]
+    },{
+        "URL": "https://suggest.taobao.com/sug",
+        "choices": 1
+    }]
 }

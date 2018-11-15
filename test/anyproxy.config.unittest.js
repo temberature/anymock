@@ -4,21 +4,21 @@ const RESTAPIMock = require("../lib/RESTAPIMock");
 const getParas = require('./getParas')
 
 describe("anyproxy.config", () => {
-    it("beforeSendRequest diamondLoginMatched", () => {
+    it("beforeSendRequest normalMatched", () => {
         const config = getConfig();
         var result = config.beforeSendRequest({
-            url: getParas('diamondLogin').splice(0, 1),
+            url: getParas('normal').splice(0, 1),
             requestData: {}
         }).next();
-        const rt = RESTAPIMock(...getParas('diamondLogin').splice(1))
+        const rt = RESTAPIMock(...getParas('normal').splice(1))
         expect(result.value).toEqual({
             response: rt.response
         });
     });
-    it("beforeSendRequest goldNotLoginNotMatched", () => {
+    it("beforeSendRequest protectedNotMatched", () => {
         const config = getConfig();
         var result = config.beforeSendRequest({
-            url: getParas('goldNotLogin').splice(0, 1),
+            url: getParas('protected').splice(0, 1),
             requestData: {}
         }).next();
         expect(result.value).toBeUndefined();
