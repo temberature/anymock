@@ -1,87 +1,116 @@
-# Anymock
-111
-One Paragraph of project description goes here
+<h1 align="center">Anymock</h1>
 
-## Getting Started
+<div align="center">
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+基于[Anyproxy](https://www.npmjs.com/package/anyproxy) 的mock 服务.
 
-### Prerequisites
+[![Build Status](https://travis-ci.org/temberature/anymock.svg?branch=master)](https://travis-ci.org/temberature/anymock)
+[![Codecov](https://img.shields.io/codecov/c/github/temberature/anymock/master.svg?style=flat-square)](https://codecov.io/gh/temberature/anymock/branch/master)
+[![Dependencies](https://img.shields.io/david/temberature/anymock.svg)](https://david-dm.org/temberature/anymock)
+[![DevDependencies](https://img.shields.io/david/dev/temberature/anymock.svg)](https://david-dm.org/temberature/anymock?type=dev)
 
-What things you need to install the software and how to install them
+[![npm package](https://img.shields.io/npm/v/@tiandatong/anymock.svg?style=flat-square)](https://www.npmjs.org/package/@tiandatong/anymock)
+[![NPM downloads](http://img.shields.io/npm/dm/@tiandatong/anymock.svg?style=flat-square)](http://npmjs.com/@tiandatong/anymock)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/temberature/anymock.svg)](http://isitmaintained.com/project/temberature/anymock "Percentage of issues still open")
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+</div>
 
-```
-Give examples
-```
+[English](./README.md) | 简体中文
 
-### Installing
+## 起步
 
-A step by step series of examples that tell you how to get a development env running
+### 安装
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```bash
+npm install @tiandatong/anymock -g
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### 用法
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+λ anymock init
+[AnyProxy Log][2018-11-15 12:35:52]: throttle :10000kb/s
+[AnyProxy Log][2018-11-15 12:35:52]: clearing cache file...
+[AnyProxy Log][2018-11-15 12:35:52]: ==>>> clearing cache
+[AnyProxy Log][2018-11-15 12:35:52]: closing webserver...
+[AnyProxy Log][2018-11-15 12:35:52]: Http proxy started on port 8001
+[AnyProxy Log][2018-11-15 12:35:52]: Active rule is: a rule to hack response
 ```
 
-### And coding style tests
+* 自动创建一个名为mock 的目录， 其中包含*.config.json 和 mocks.json 配置模板
+ (默认 api.config.json 和 file.config.json)
 
-Explain what these tests test and why
+* 通过[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)把Chrome 的代理配置为http://127.0.0.1:8001
+* 然后分别访问
+* https://api.github.com/repos/temberature/anymock/branches?protected=0 
+* https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple
+* https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
+* 你就可以看到相应的mock 结果了。
 
+```json
+[{
+    "name": "master1",
+    "commit": {
+        "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
+        "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
+    }
+}]
 ```
-Give an example
+
+```json
+KISSY.Suggest.callback(
+{
+    "result": [
+        [
+            "apple watch4",
+            "14770"
+        ],
+        [
+            "apple pencil",
+            "12500"
+        ]
+    ],
+    "shop": "apple",
+    "tmall": "apple"
+}
+)
 ```
 
-## Deployment
+```js
+//uncompressed jquery
+```
 
-Add additional notes about how to deploy this on a live system
+## 测试
 
-## Built With
+```bash
+npm test
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## 开发
 
-## Contributing
+```bash
+git clone https://github.com/temberature/anymock.git
+cd anymock
+npm install
+npm start
+```
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## 基础库
 
-## Versioning
+* [Anyproxy](https://www.npmjs.com/package/anyproxy)
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## 贡献
 
-## Authors
+Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+## 版本化
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## License
+## 协议
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## 致谢
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Inspiration: [moco](https://github.com/dreamhead/moco),[wiremock](https://github.com/tomakehurst/wiremock)

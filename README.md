@@ -19,7 +19,7 @@ English | [简体中文](./docs/README-zh_CN.md)
 
 ## Getting Started
 
-### Installing
+### Installation
 
 ```bash
 npm install @tiandatong/anymock -g
@@ -27,95 +27,10 @@ npm install @tiandatong/anymock -g
 
 ### Usage
 
-create a directory contains *.config.json and mocks.json
- (recommend api.config.json and file.config.json)
-
-#### api.config.json
-
-```json
-{
-    "disabled": 0,
-    "mocks": [{
-        "URL": "//api.github.com/repos/temberature/anymock/branches",
-        "OPTIONS": ["normal", "protected"],
-        "enabled": ["normal"]
-    }, {
-        "URL": "https://suggest.taobao.com/sug",
-        "enabled": 1
-    }]
-}
-```
-
-#### file.config.json
-
-```json
-{
-    "disabled": 0,
-    "mocks": [{
-        "url": "https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js",
-        "enabled": "./mock/jquery.js"
-    }]
-}
-```
-
-#### mocks.json
-
-```json
-[{
-    "url": "//api.github.com/repos/temberature/anymock/branches",
-    "normal": {
-        "request": {
-            "queries": {
-                "protected": "0"
-            }
-        },
-        "body": [{
-            "name": "master1",
-            "commit": {
-                "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
-                "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
-            }
-        }]
-    },
-    "protected": {
-        "request": {
-            "queries": {
-                "protected": "1"
-            }
-        },
-        "body": {
-            "message": "Not Found2",
-            "documentation_url": "https://developer.github.com/v3/repos/branches/#list-branches"
-        }
-    }
-}, {
-    "url": "https://suggest.taobao.com/sug",
-    "default": {
-        "Content-Type": "text/html",
-        "fileHead": "",
-        "fileFooter": "",
-        "body": {
-            "result": [
-                [
-                    "apple watch4",
-                    "14770"
-                ],
-                [
-                    "apple pencil",
-                    "12500"
-                ]
-            ],
-            "shop": "apple",
-            "tmall": "apple"
-        }
-    }
-}]
-```
-
-run command below under the root dir
+run command below anywhere
 
 ```bash
-λ anymock
+λ anymock init
 [AnyProxy Log][2018-11-15 12:35:52]: throttle :10000kb/s
 [AnyProxy Log][2018-11-15 12:35:52]: clearing cache file...
 [AnyProxy Log][2018-11-15 12:35:52]: ==>>> clearing cache
@@ -124,10 +39,16 @@ run command below under the root dir
 [AnyProxy Log][2018-11-15 12:35:52]: Active rule is: a rule to hack response
 ```
 
-configure chrome's proxy to http://127.0.0.1:8001 via [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+* first run with 'init' will create a directory 'mock' contains *.config.json and mocks.json template
+ (default api.config.json and file.config.json)
 
-then you can browse https://api.github.com/repos/temberature/anymock/branches?protected=0 or https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple or https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
-and see the corresponding mock result
+* configure chrome's proxy to http://127.0.0.1:8001 via [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+
+* then you can browse 
+* https://api.github.com/repos/temberature/anymock/branches?protected=0
+* https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple
+* https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
+* and see the corresponding mock result
 
 ```json
 [{
