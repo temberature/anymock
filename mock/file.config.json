@@ -1,0 +1,7 @@
+{
+    "disabled": 0,
+    "mocks": [{
+        "url": "https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js",
+        "enabled": "./mock/jquery.js"
+    }]
+}

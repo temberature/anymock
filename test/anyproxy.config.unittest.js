@@ -1,6 +1,6 @@
 "use strict";
 const getConfig = require('../lib/anyproxy.config')
-const RESTAPIMock = require("../lib/RESTAPIMock");
+const mock = require("../lib/mock");
 const getParas = require('./getParas')
 
 describe("anyproxy.config", () => {
@@ -10,7 +10,7 @@ describe("anyproxy.config", () => {
             url: getParas('normal').splice(0, 1),
             requestData: {}
         }).next();
-        const rt = RESTAPIMock(...getParas('normal').splice(1))
+        const rt = mock(...getParas('normal').splice(1))
         expect(result.value).toEqual({
             response: rt.response
         });

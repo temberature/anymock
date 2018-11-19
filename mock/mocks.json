@@ -1,0 +1,49 @@
+[{
+    "url": "//api.github.com/repos/temberature/anymock/branches",
+    "normal": {
+        "request": {
+            "queries": {
+                "protected": "0"
+            }
+        },
+        "body": [{
+            "name": "master1",
+            "commit": {
+                "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
+                "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
+            }
+        }]
+    },
+    "protected": {
+        "request": {
+            "queries": {
+                "protected": "1"
+            }
+        },
+        "body": {
+            "message": "Not Found2",
+            "documentation_url": "https://developer.github.com/v3/repos/branches/#list-branches"
+        }
+    }
+}, {
+    "url": "https://suggest.taobao.com/sug",
+    "default": {
+        "Content-Type": "text/html",
+        "fileHead": "",
+        "fileFooter": "",
+        "body": {
+            "result": [
+                [
+                    "apple watch4",
+                    "14770"
+                ],
+                [
+                    "apple pencil",
+                    "12500"
+                ]
+            ],
+            "shop": "apple",
+            "tmall": "apple"
+        }
+    }
+}]

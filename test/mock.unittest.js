@@ -1,6 +1,6 @@
 "use strict";
 const createRes = require('../lib/createRes')
-const RESTAPIMock = require("../lib/RESTAPIMock");
+const mock = require("../lib/mock");
 const getParas = require('./getParas')
 const normalMockMap = {
     "request": {
@@ -16,16 +16,16 @@ const normalMockMap = {
         }
     }]
 }
-describe("RESTAPIMock", () => {
+describe("mock", () => {
     it("normal matched", () => {
         const [url, ...paras] = getParas('normal');
-        expect(RESTAPIMock(...paras)).toEqual({
+        expect(mock(...paras)).toEqual({
             match: true,
             response: createRes(paras[2], normalMockMap)
         });
     });
     it("protected notMatched", () => {
-        expect(RESTAPIMock(...getParas('protected').splice(1))).toEqual({
+        expect(mock(...getParas('protected').splice(1))).toEqual({
             match: false,
             response: undefined
         });

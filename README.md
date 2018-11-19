@@ -27,54 +27,65 @@ npm install @tiandatong/anymock -g
 
 ### Usage
 
-create a directory contains RESTAPI.config.json and RESTAPI.json
+create a directory contains *.config.json and mocks.json
+ (recommend api.config.json and file.config.json)
 
-#### RESTAPI.config.json
+#### api.config.json
 
 ```json
 {
-    "disabled": false,
-    "configs": [{
+    "disabled": 0,
+    "mocks": [{
         "URL": "//api.github.com/repos/temberature/anymock/branches",
         "OPTIONS": ["normal", "protected"],
-        "choices": ["normal"]
-    },{
+        "enabled": ["normal"]
+    }, {
         "URL": "https://suggest.taobao.com/sug",
-        "choices": 1
+        "enabled": 1
     }]
 }
 ```
 
-#### RESTAPI.json
+#### file.config.json
+
+```json
+{
+    "disabled": 0,
+    "mocks": [{
+        "url": "https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js",
+        "enabled": "./mock/jquery.js"
+    }]
+}
+```
+
+#### mocks.json
 
 ```json
 [{
     "url": "//api.github.com/repos/temberature/anymock/branches",
-    "options": {
-        "normal": {
-            "request": {
-                "queries": {
-                    "protected": "0"
-                }
-            },
-            "body": [{
-                "name": "master1",
-                "commit": {
-                    "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
-                    "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
-                }
-            }]
-        },
-        "protected": {
-            "request": {
-                "queries": {
-                    "protected": "1"
-                }
-            },
-            "body": {
-                "message": "Not Found2",
-                "documentation_url": "https://developer.github.com/v3/repos/branches/#list-branches"
+    "normal": {
+        "request": {
+            "queries": {
+                "protected": "0"
             }
+        },
+        "body": [{
+            "name": "master1",
+            "commit": {
+                "sha": "51a0a39acfb1d029345e896cca6a6a2c3625816b",
+                "url": "https://api.github.com/repos/temberature/anymock/commits/51a0a39acfb1d029345e896cca6a6a2c3625816b"
+            }
+        }]
+    },
+    "protected": {
+        "request": {
+            "queries": {
+                "protected": "1"
+            }
+        },
+        "body": {
+            "message": "Not Found2",
+            "documentation_url": "https://developer.github.com/v3/repos/branches/#list-branches"
         }
     }
 }, {
@@ -101,7 +112,7 @@ create a directory contains RESTAPI.config.json and RESTAPI.json
 }]
 ```
 
-run command below in the root dir
+run command below under the root dir
 
 ```bash
 λ anymock
@@ -113,9 +124,9 @@ run command below in the root dir
 [AnyProxy Log][2018-11-15 12:35:52]: Active rule is: a rule to hack response
 ```
 
-configure chrome's proxy to http://127.0.0.1:8001 by [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+configure chrome's proxy to http://127.0.0.1:8001 via [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 
-then you can browse https://api.github.com/repos/temberature/anymock/branches?protected=0 or https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple
+then you can browse https://api.github.com/repos/temberature/anymock/branches?protected=0 or https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple or https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
 and see the corresponding mock result
 
 ```json
@@ -145,6 +156,10 @@ KISSY.Suggest.callback(
     "tmall": "apple"
 }
 )
+```
+
+```js
+//uncompressed jquery
 ```
 
 ## Running the tests

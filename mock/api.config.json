@@ -1,11 +1,11 @@
 {
-    "disabled": false,
-    "configs": [{
+    "disabled": 0,
+    "mocks": [{
         "URL": "//api.github.com/repos/temberature/anymock/branches",
         "OPTIONS": ["normal", "protected"],
-        "choices": ["normal"]
-    },{
+        "enabled": ["normal"]
+    }, {
         "URL": "https://suggest.taobao.com/sug",
-        "choices": 1
+        "enabled": 1
     }]
 }
