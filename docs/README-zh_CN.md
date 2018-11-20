@@ -19,6 +19,15 @@
 
 ## 起步
 
+### 前提
+
+```bash
+npm install anyproxy -g
+anyproxy-ca
+```
+
+信任生成的根证书
+
 ### 安装
 
 ```bash

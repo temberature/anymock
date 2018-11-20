@@ -19,6 +19,15 @@ English | [简体中文](./docs/README-zh_CN.md)
 
 ## Getting Started
 
+### Prerequisites
+
+```bash
+npm install anyproxy -g
+anyproxy-ca
+```
+
+trust the root cert
+
 ### Installation
 
 ```bash
