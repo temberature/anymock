@@ -22,7 +22,10 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\lib\\anymock.js"
+            "program": "${workspaceFolder}\\lib\\anymock.js",
+            "args": [
+                "init"
+            ],
         }
     ]
 }

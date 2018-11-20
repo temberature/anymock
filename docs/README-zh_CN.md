@@ -19,15 +19,6 @@
 
 ## 起步
 
-### 前提
-
-```bash
-npm install anyproxy -g
-anyproxy-ca
-```
-
-信任生成的根证书
-
 ### 安装
 
 ```bash
@@ -47,8 +38,8 @@ npm install @tiandatong/anymock -g
 ```
 
 * 自动创建一个名为mock 的目录， 其中包含*.config.json 和 mocks.json 配置模板
- (默认 api.config.json 和 file.config.json)
-
+ (默认 api.config.json 和 file.config.json), 也会生成一个根证书
+* 信任根证书
 * 通过[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)把Chrome 的代理配置为http://127.0.0.1:8001
 * 然后分别访问
 * https://api.github.com/repos/temberature/anymock/branches?protected=0 

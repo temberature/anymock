@@ -1,4 +1,5 @@
-const removeProtocol = require('../lib/removeProtocol')
+const normalizeUrl = require('../lib/customNormalizeUrl');
+
 const URLS = {
     normal: 'https://api.github.com/repos/temberature/anymock/branches?protected=0',
     protected: 'https://api.github.com/repos/temberature/anymock/branches?protected=1'
@@ -6,12 +7,12 @@ const URLS = {
 
 
 module.exports = (type) => {
-    const URLO = new URL(URLS[type]);
-    const myURL = removeProtocol(URLO.href);
-    const searchParams = URLO.searchParams;
+    const URLObj = new URL(URLS[type]);
+    const myURL = normalizeUrl(URLObj.href);
+    const searchParams = URLObj.searchParams;
     const callbackName = searchParams.get('callback');
     return [
-        URLO,
+        URLObj,
         myURL,
         searchParams,
         callbackName

@@ -19,15 +19,6 @@ English | [简体中文](./docs/README-zh_CN.md)
 
 ## Getting Started
 
-### Prerequisites
-
-```bash
-npm install anyproxy -g
-anyproxy-ca
-```
-
-trust the root cert
-
 ### Installation
 
 ```bash
@@ -48,12 +39,11 @@ run command below anywhere
 [AnyProxy Log][2018-11-15 12:35:52]: Active rule is: a rule to hack response
 ```
 
-* first run with 'init' will create a directory 'mock' contains *.config.json and mocks.json template
- (default api.config.json and file.config.json)
-
+* first run with 'init' will create a directory 'mock' contains *.config.json and mocks.json template(default api.config.json and file.config.json), and generate root cert
+ 
+* trust the root cert
 * configure chrome's proxy to http://127.0.0.1:8001 via [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
-
-* then you can browse 
+* then you can browse
 * https://api.github.com/repos/temberature/anymock/branches?protected=0
 * https://suggest.taobao.com/sug?code=utf-8&callback=KISSY.Suggest.callback&q=apple
 * https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js

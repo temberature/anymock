@@ -1,9 +1,9 @@
 "use strict";
 
 const createRes = require("../lib/createRes");
-const getJSON = require("../lib/getJSON");
+const loadJsonFile = require('load-json-file');
 
-const sampleJSON = getJSON('./test/sample.json')
+const sampleJSON = loadJsonFile.sync('./test/sample.json')
 const sampleJSONStr = JSON.stringify(sampleJSON);
 const fileHead = '<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">		document.domain="iqiyi.com";		window.parent.';
 const fileFooter = "</script></head><body></body></html>";
