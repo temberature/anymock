@@ -17,6 +17,12 @@ mock service base on [Anyproxy](https://www.npmjs.com/package/anyproxy).
 
 English | [简体中文](./docs/README-zh_CN.md)
 
+## Features
+
+* support https
+* support jsonp and JSON API
+* support resources replace(js\css etc.)
+
 ## Getting Started
 
 ### Installation
