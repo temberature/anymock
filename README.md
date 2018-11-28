@@ -23,6 +23,11 @@ English | [简体中文](./docs/README-zh_CN.md)
 * support jsonp and JSON API
 * support resources replace(js\css etc.)
 
+Some principle of this project:
+
+* Unix philosophy: Do One Thing and Do It Well
+* form follows function
+
 ## Getting Started
 
 ### Installation
