@@ -16,8 +16,7 @@ describe("createRes", () => {
         const Expected = {
             statusCode: 200,
             header: {
-                "Content-Type": "text/plain",
-                "Access-Control-Allow-Origin": "*"
+                "Content-Type": "text/plain"
             },
             body: "callbackName(" + sampleJSONStr + ")"
         }
@@ -32,8 +31,7 @@ describe("createRes", () => {
         })).toEqual({
             statusCode: 200,
             header: {
-                "Content-Type": "text/html",
-                "Access-Control-Allow-Origin": "*"
+                "Content-Type": "text/html"
             },
             body: fileHead + "callbackName(" + sampleJSONStr + ")" + fileFooter
         });
@@ -45,8 +43,7 @@ describe("createRes", () => {
         const Expected = {
             statusCode: 200,
             header: {
-                "Content-Type": "text/plain",
-                "Access-Control-Allow-Origin": "*"
+                "Content-Type": "application/json"
             },
             body: sampleJSONStr
         }

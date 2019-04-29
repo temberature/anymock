@@ -8,9 +8,15 @@ describe("anyproxy.config", () => {
         const config = getConfig();
         var result = config.beforeSendRequest({
             url: getParas('normal').splice(0, 1),
-            requestData: {}
+            requestData: {},
+            requestOptions: {
+                headers: {}
+            }
         }).next();
         const rt = mock(...getParas('normal').splice(1))
+        rt.response.header["Access-Control-Allow-Origin"] = "*"
+        rt.response.header["Access-Control-Allow-Credentials"] = true
+        rt.response.header["Access-Control-Allow-Headers"] = "platform"
         expect(result.value).toEqual({
             response: rt.response
         });
